@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 500px;
+}
+
+.card{
+    display: inline-block;
+    align-items: center;
+    margin: 11px;
+    position: relative;
+    left: 10px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(30, 27, 190);
+}
