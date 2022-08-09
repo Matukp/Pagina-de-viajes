@@ -9,12 +9,24 @@ img{
 
 .card{
     display: inline-block;
-    align-items: center;
-    margin: 11px;
     position: relative;
-    left: 10px;
+    margin: 12px;
 }
 .titulo{
     text-align: center;
-    color: rgb(30, 27, 190);
+    color: rgb(60, 58, 184);
+}
+.nav-item{
+    width: 200px;
+}
+.nav-item:hover{
+    background-color: rgb(243, 243, 240);
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: inline-block;
+        position: relative;
+        left: 25px;
+    }
 }
